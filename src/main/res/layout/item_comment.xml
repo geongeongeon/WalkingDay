@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:background="#F9F9F9">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="12dp"
+            android:background="@color/white">
+        </ImageView>
+
+        <TextView
+            android:id="@+id/tv_commentuser"
+            android:paddingTop="7dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="7dp"
+            android:text="작성자"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tv_commentcontents"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="3dp"
+            android:paddingBottom="3dp"
+            android:text="내용"
+            android:textColor="@color/black"
+            android:paddingLeft="7dp"/>
+
+        <TextView
+            android:id="@+id/tv_commenttime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="작성시간"
+            android:textSize="12dp"
+            android:paddingLeft="7dp"
+            android:paddingBottom="7dp"
+            android:textColor="#939393"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="12dp"
+            android:background="@color/white">
+        </ImageView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_centerInParent="true"
+            android:background="#E3E3E3" />
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

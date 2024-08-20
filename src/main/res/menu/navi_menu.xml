@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_walk"
+        android:title="만보기"
+        android:icon="@drawable/ic_baseline_directions_walk_24"/>
+    <item
+        android:id="@+id/menu_map"
+        android:title="지도"
+        android:icon="@drawable/ic_baseline_map_24"/>
+    <item
+        android:id="@+id/menu_shop"
+        android:title="포인트상점"
+        android:icon="@drawable/ic_baseline_shopping_cart_24"/>
+    <item
+        android:id="@+id/menu_leaderboard"
+        android:title="리더보드"
+        android:icon="@drawable/ic_baseline_leaderboard_24"/>
+    <item
+        android:id="@+id/menu_post"
+        android:title="게시판"
+        android:icon="@drawable/ic_baseline_post_add_24"/>
+    <item
+        android:id="@+id/menu_profile"
+        android:title="프로필"
+        android:icon="@drawable/ic_baseline_account_circle_24"/>
+    <item
+        android:id="@+id/menu_logout"
+        android:title="로그아웃"
+        android:icon="@drawable/ic_baseline_logout_24"/>
+
+</menu>
